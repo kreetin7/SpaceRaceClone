@@ -6,12 +6,20 @@ public class Star : MonoBehaviour
 {
 
 	public GameObject StarPrefab;
+	public int NumofCubes;
+	public int min, max; 
+	
 	
 	 
 
 	// Use this for initialization
 	void Start () {
 		
+	}
+
+	void GenerateCubes()
+	{
+		for (int i =0; i < NumofCubes; i++){}
 	}
 	
 	// Update is called once per frame

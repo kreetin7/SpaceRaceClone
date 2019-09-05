@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
+using UnityEngine.UI; 
 
 //INTENT: Move the Right player's Spaceship up and down
 //USAGE: Place on Right PC
@@ -9,6 +11,10 @@ public class SpaceShipMoveRight : MonoBehaviour {
     private Vector3 StartPos; //declaring StartPos V3
 
     private float Yspeed = 0.12f;
+
+    public int ScoreRight = 0;
+
+    public Text RightCounttext;
     
 	
 	
@@ -19,7 +25,11 @@ public class SpaceShipMoveRight : MonoBehaviour {
     }
 	
     // Update is called once per frame
-    void Update () {
+    void Update ()
+    {
+
+        RightCounttext.text = ("" + ScoreRight);
+        
         if (Input.GetKey(KeyCode.Keypad8)) //use 8 on the number pad to...
         {
             transform.Translate(0,Yspeed,0 ); //move up
@@ -35,6 +45,8 @@ public class SpaceShipMoveRight : MonoBehaviour {
         if (transform.position.y > 5.6f) //if the player leaves the game screen
         {
             transform.position = StartPos; //place them at the start position
+            ScoreRight++;
+            print(ScoreRight);
         }
     }
     
