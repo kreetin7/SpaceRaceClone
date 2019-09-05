@@ -7,24 +7,27 @@ using UnityEngine;
 public class SpaceShipMoveRight : MonoBehaviour {
     
     private Vector3 StartPos; //declaring StartPos V3
+
+    private float Yspeed = 0.12f;
+    
 	
 	
 
     // Use this for initialization
     void Start () {
-        StartPos = new Vector3(5.8f, -5.5f,0); //establish Start Pos
+        StartPos = transform.position; //establish Start Pos
     }
 	
     // Update is called once per frame
     void Update () {
         if (Input.GetKey(KeyCode.Keypad8)) //use 8 on the number pad to...
         {
-            transform.Translate(0,0.12f,0 ); //move up
+            transform.Translate(0,Yspeed,0 ); //move up
         }
 
         if (Input.GetKey(KeyCode.Keypad2)) //use 2 on the number pad to..
         {
-            transform.Translate(0,-0.12f,0); //move down
+            transform.Translate(0,-Yspeed,0); //move down
             
         }
 		
@@ -34,4 +37,23 @@ public class SpaceShipMoveRight : MonoBehaviour {
             transform.position = StartPos; //place them at the start position
         }
     }
+    
+    void OnCollisionEnter2D(Collision2D other)
+    {
+       StartCoroutine(DeathRespawn2());
+       //transform.position = StartPos;
+        Debug.Log("Hit");
+    }
+    
+    IEnumerator DeathRespawn2 ()
+    {
+        Yspeed = 0;
+        transform.position = new Vector3(-13f,-13f,0);
+        yield return new WaitForSeconds(2f);
+
+        Yspeed = 0.12f;
+        //transform.position = new Vector3(5.8f,-4.3f,0f);
+        transform.position = new Vector3(5.8f, -4.3f,0);
+        print(transform.position.y);
+    } 
 }

@@ -23,4 +23,9 @@ public class Star : MonoBehaviour
 			transform.position = new Vector3(-12f, transform.position.y, 0);
 		}
 	}
+
+	/*private void OnCollisionEnter2D(Collision2D other)
+	{
+		//Debug.Log("HitStar");
+	}*/
 }

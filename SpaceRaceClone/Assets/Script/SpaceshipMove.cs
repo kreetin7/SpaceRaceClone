@@ -7,8 +7,8 @@ using UnityEngine;
 public class SpaceshipMove : MonoBehaviour
 {
 	private Vector3 StartPos; //declaring StartPos V3
-	
-	
+
+	private float Yspeed = 0.12f;
 
 	// Use this for initialization
 	void Start () {
@@ -19,12 +19,12 @@ public class SpaceshipMove : MonoBehaviour
 	void Update () {
 		if (Input.GetKey(KeyCode.W))//use W to...
 		{
-			transform.Translate(0,0.12f,0 ); //move up
+			transform.Translate(0,Yspeed,0 ); //move up
 		}
 
 		if (Input.GetKey(KeyCode.S)) //use S to...
 		{
-			transform.Translate(0,-0.12f,0); //move down
+			transform.Translate(0,-Yspeed,0); //move down
 			
 		}
 		
@@ -34,4 +34,23 @@ public class SpaceshipMove : MonoBehaviour
 			transform.position = StartPos; //put them back at Start pos
 		}
 	}
+
+	void OnCollisionEnter2D(Collision2D other)
+	{
+
+		StartCoroutine(DeathRespawn());
+		//Debug.Log("Hit");
+	}
+
+	IEnumerator DeathRespawn ()
+	{
+		Yspeed = 0;
+		transform.position = new Vector3(-11f,-11f,0);
+		yield return new WaitForSeconds(2f);
+		Yspeed = 0.12f;
+		transform.position = new Vector3(-5.8f,-4.3f,0f);
+		print(transform.position.x);
+	}
+	
+	
 }
