@@ -9,6 +9,7 @@
         <e p="Script" t="Include">
           <e p="SpaceshipMove.cs" t="Include" />
           <e p="SpaceShipMoveRight.cs" t="Include" />
+          <e p="Star.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
