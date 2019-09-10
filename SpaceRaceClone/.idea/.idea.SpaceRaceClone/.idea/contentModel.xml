@@ -6,6 +6,8 @@
     <e p="C:\Users\Ren Hughes\Documents\NYU\SpaceRaceClone\SpaceRaceClone" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="license.txt" t="Include" />
+        <e p="pizzadudedotdk.txt" t="Include" />
         <e p="Script" t="Include">
           <e p="CountDownTimer.cs" t="Include" />
           <e p="SpaceshipMove.cs" t="Include" />

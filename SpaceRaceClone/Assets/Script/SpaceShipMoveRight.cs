@@ -10,7 +10,7 @@ public class SpaceShipMoveRight : MonoBehaviour {
     
     private Vector3 StartPos; //declaring StartPos V3
 
-    private float Yspeed = 0.12f;
+    public static float Yspeed = 0.12f;
 
     public int ScoreRight = 0;
 
@@ -28,6 +28,11 @@ public class SpaceShipMoveRight : MonoBehaviour {
     void Update ()
     {
 
+        /*if (CountDownTimer.TimeLeft == 0)
+        {
+            Yspeed = 0;
+            transform.position = StartPos; 
+        }*/
         RightCounttext.text = ("" + ScoreRight);
         
         if (Input.GetKey(KeyCode.Keypad8)) //use 8 on the number pad to...
@@ -47,14 +52,27 @@ public class SpaceShipMoveRight : MonoBehaviour {
             transform.position = StartPos; //place them at the start position
             ScoreRight++;
             print(ScoreRight);
+            transform.localScale += new Vector3(-0.5f, -0.5f, 0);
         }
     }
     
-    void OnCollisionEnter2D(Collision2D other)
+    void OnCollisionEnter2D(Collision2D collision)
     {
        StartCoroutine(DeathRespawn2());
        //transform.position = StartPos;
         Debug.Log("Hit");
+
+        if (collision.gameObject. CompareTag("StarBasic"))
+        {
+            transform.localScale += new Vector3(0.5f, 0.5f, 0); 
+        }
+
+        else if (collision.gameObject.CompareTag("DoubleStar"))
+        {
+            transform.localScale += new Vector3(1f,1f,0f);
+        }
+    
+       // transform.localScale += new Vector3(0.5f, 0.5f, 0); 
     }
     
     IEnumerator DeathRespawn2 ()

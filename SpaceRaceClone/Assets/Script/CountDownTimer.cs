@@ -20,8 +20,14 @@ public class CountDownTimer : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		
-		CountDownText.text =("" + TimeLeft); 
+		if (TimeLeft == 0)
+		{
+			SpaceshipMove.Yspeed = 0;
+			SpaceShipMoveRight.Yspeed = 0;
+
+			StopCoroutine(Timer());
+		}
+		CountDownText.text =("" + TimeLeft);
 	}
 
 	IEnumerator Timer()

@@ -9,7 +9,7 @@ public class SpaceshipMove : MonoBehaviour
 {
 	private Vector3 StartPos; //declaring StartPos V3
 
-	private float Yspeed = 0.12f;
+	public static float Yspeed = 0.12f;
 
 	public int ScoreLeft = 0;
 	public Text CounterLeft;
@@ -40,14 +40,25 @@ public class SpaceshipMove : MonoBehaviour
 		{
 			transform.position = StartPos; //put them back at Start pos
 			ScoreLeft++; 
+			transform.localScale += new Vector3(-0.5f, -0.5f, 0);
 		}
 	}
 
-	void OnCollisionEnter2D(Collision2D other)
+	void OnCollisionEnter2D(Collision2D collision)
 	{
 
 		StartCoroutine(DeathRespawn());
 		//Debug.Log("Hit");
+		if (collision.gameObject. CompareTag("StarBasic"))
+		{
+			transform.localScale += new Vector3(0.5f, 0.5f, 0); 
+		}
+
+		else if (collision.gameObject.CompareTag("DoubleStar"))
+		{
+			transform.localScale += new Vector3(1f,1f,0f);
+		}
+		
 	}
 
 	IEnumerator DeathRespawn ()

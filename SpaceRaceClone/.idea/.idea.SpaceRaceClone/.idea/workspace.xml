@@ -12,20 +12,21 @@
     <session id="717781274">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2779" />
+          <entry key="cs" value="3630" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2779" />
+          <entry key="C#" value="3630" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,19 +46,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/SpaceshipMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+            <state relative-caret-position="120">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
-                <marker date="1567727091016" expanded="true" signature="6:100" ph="..." />
-                <marker date="1567727091016" expanded="true" signature="102:182" ph="/* INTENT: Move the Left player's Spaceship up and down ... */" />
-                <marker date="1567727091016" expanded="true" signature="225:1305" ph="{...}" />
-                <marker date="1567727091016" expanded="true" signature="413:481" ph="{...}" />
-                <marker date="1567727091016" expanded="true" signature="535:952" ph="{...}" />
-                <marker date="1567727091016" expanded="true" signature="622:677" ph="{...}" />
-                <marker date="1567727091016" expanded="true" signature="723:784" ph="{...}" />
-                <marker date="1567727091016" expanded="true" signature="861:949" ph="{...}" />
-                <marker date="1567727091016" expanded="true" signature="997:1060" ph="{...}" />
-                <marker date="1567727091016" expanded="true" signature="1090:1299" ph="{...}" />
+                <marker date="1567974840317" expanded="false" signature="6:100" ph="..." />
+                <marker date="1567974840317" expanded="true" signature="102:182" ph="/* INTENT: Move the Left player's Spaceship up and down ... */" />
+                <marker date="1567974840317" expanded="true" signature="225:1609" ph="{...}" />
+                <marker date="1567974840317" expanded="true" signature="419:487" ph="{...}" />
+                <marker date="1567974840317" expanded="true" signature="541:1015" ph="{...}" />
+                <marker date="1567974840317" expanded="true" signature="628:683" ph="{...}" />
+                <marker date="1567974840317" expanded="true" signature="729:790" ph="{...}" />
+                <marker date="1567974840317" expanded="true" signature="867:1012" ph="{...}" />
+                <marker date="1567974840317" expanded="true" signature="1064:1364" ph="{...}" />
+                <marker date="1567974840317" expanded="true" signature="1177:1241" ph="{...}" />
+                <marker date="1567974840317" expanded="true" signature="1300:1358" ph="{...}" />
+                <marker date="1567974840317" expanded="true" signature="1394:1603" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,16 +69,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Star.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="260">
+              <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
               <folding>
-                <marker date="1567727292697" expanded="true" signature="6:78" ph="..." />
-                <marker date="1567727292697" expanded="true" signature="113:623" ph="{...}" />
-                <marker date="1567727292697" expanded="true" signature="250:257" ph="{...}" />
-                <marker date="1567727292697" expanded="true" signature="280:326" ph="{...}" />
-                <marker date="1567727292697" expanded="true" signature="381:532" ph="{...}" />
-                <marker date="1567727292697" expanded="true" signature="453:529" ph="{...}" />
-                <marker date="1567727292697" expanded="true" signature="535:621" ph="/* private void OnCollisionEnter2D(Collision2D other) ... */" />
+                <marker date="1568051340790" expanded="false" signature="6:78" ph="..." />
+                <marker date="1568051340790" expanded="true" signature="304:1009" ph="{...}" />
+                <marker date="1568051340790" expanded="true" signature="350:439" ph="/* particlesystem = GetComponentInChildren&lt;ParticleSystem&gt;(); ... */" />
+                <marker date="1568051340790" expanded="true" signature="567:613" ph="{...}" />
+                <marker date="1568051340790" expanded="true" signature="668:824" ph="{...}" />
+                <marker date="1568051340790" expanded="true" signature="740:816" ph="{...}" />
+                <marker date="1568051340790" expanded="true" signature="869:1007" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -84,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/StarGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <marker date="1567727221487" expanded="false" signature="6:78" ph="..." />
                 <marker date="1567727221487" expanded="true" signature="123:244" ph="{...}" />
@@ -99,19 +102,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/SpaceShipMoveRight.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+            <state>
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding>
-                <marker date="1567726038705" expanded="true" signature="6:153" ph="..." />
-                <marker date="1567726038705" expanded="true" signature="156:238" ph="/* INTENT: Move the Right player's Spaceship up and down ... */" />
-                <marker date="1567726038705" expanded="true" signature="287:1787" ph="{...}" />
-                <marker date="1567726038705" expanded="true" signature="511:579" ph="{...}" />
-                <marker date="1567726038705" expanded="true" signature="639:1266" ph="{...}" />
-                <marker date="1567726038705" expanded="true" signature="779:855" ph="{...}" />
-                <marker date="1567726038705" expanded="true" signature="930:1021" ph="{...}" />
-                <marker date="1567726038705" expanded="true" signature="1105:1260" ph="{...}" />
-                <marker date="1567726038705" expanded="true" signature="1318:1436" ph="{...}" />
-                <marker date="1567726038705" expanded="true" signature="1474:1784" ph="{...}" />
+                <marker date="1567974840344" expanded="false" signature="6:153" ph="..." />
+                <marker date="1567974840344" expanded="true" signature="156:238" ph="/* INTENT: Move the Right player's Spaceship up and down ... */" />
+                <marker date="1567974840344" expanded="true" signature="287:2354" ph="{...}" />
+                <marker date="1567974840344" expanded="true" signature="517:585" ph="{...}" />
+                <marker date="1567974840344" expanded="true" signature="645:1472" ph="{...}" />
+                <marker date="1567974840344" expanded="true" signature="661:786" ph="/* if (CountDownTimer.TimeLeft == 0) ... */" />
+                <marker date="1567974840344" expanded="true" signature="919:995" ph="{...}" />
+                <marker date="1567974840344" expanded="true" signature="1070:1161" ph="{...}" />
+                <marker date="1567974840344" expanded="true" signature="1245:1466" ph="{...}" />
+                <marker date="1567974840344" expanded="true" signature="1528:2003" ph="{...}" />
+                <marker date="1567974840344" expanded="true" signature="1700:1785" ph="{...}" />
+                <marker date="1567974840344" expanded="true" signature="1850:1929" ph="{...}" />
+                <marker date="1567974840344" expanded="true" signature="2041:2351" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -120,15 +126,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/CountDownTimer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding>
-                <marker date="1567717595962" expanded="true" signature="6:100" ph="..." />
-                <marker date="1567717595962" expanded="true" signature="146:519" ph="{...}" />
-                <marker date="1567717595962" expanded="true" signature="250:306" ph="{...}" />
-                <marker date="1567717595962" expanded="true" signature="360:409" ph="{...}" />
-                <marker date="1567717595962" expanded="true" signature="431:517" ph="{...}" />
-                <marker date="1567717595962" expanded="true" signature="449:511" ph="{...}" />
+                <marker date="1567974997299" expanded="false" signature="6:100" ph="..." />
+                <marker date="1567974997299" expanded="true" signature="146:635" ph="{...}" />
+                <marker date="1567974997299" expanded="true" signature="250:306" ph="{...}" />
+                <marker date="1567974997299" expanded="true" signature="360:525" ph="{...}" />
+                <marker date="1567974997299" expanded="true" signature="384:483" ph="{...}" />
+                <marker date="1567974997299" expanded="true" signature="547:633" ph="{...}" />
+                <marker date="1567974997299" expanded="true" signature="565:627" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -149,10 +156,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Script/CountDownTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/SpaceShipMoveRight.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/SpaceshipMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/StarGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SpaceshipMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SpaceShipMoveRight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/CountDownTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Star.cs" />
       </list>
     </option>
@@ -229,11 +236,14 @@
       <updated>1567617070431</updated>
       <workItem from="1567617074826" duration="6284000" />
       <workItem from="1567708815995" duration="10515000" />
+      <workItem from="1567727634529" duration="460000" />
+      <workItem from="1567805851204" duration="600000" />
+      <workItem from="1567962299548" duration="6877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16799000" />
+    <option name="totallyTimeSpent" value="24736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,8 +256,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118791945" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12281879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,63 +303,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Script/CountDownTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <marker date="1567717595962" expanded="true" signature="6:100" ph="..." />
-            <marker date="1567717595962" expanded="true" signature="146:519" ph="{...}" />
-            <marker date="1567717595962" expanded="true" signature="250:306" ph="{...}" />
-            <marker date="1567717595962" expanded="true" signature="360:409" ph="{...}" />
-            <marker date="1567717595962" expanded="true" signature="431:517" ph="{...}" />
-            <marker date="1567717595962" expanded="true" signature="449:511" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/SpaceShipMoveRight.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
-          <folding>
-            <marker date="1567726038705" expanded="true" signature="6:153" ph="..." />
-            <marker date="1567726038705" expanded="true" signature="156:238" ph="/* INTENT: Move the Right player's Spaceship up and down ... */" />
-            <marker date="1567726038705" expanded="true" signature="287:1787" ph="{...}" />
-            <marker date="1567726038705" expanded="true" signature="511:579" ph="{...}" />
-            <marker date="1567726038705" expanded="true" signature="639:1266" ph="{...}" />
-            <marker date="1567726038705" expanded="true" signature="779:855" ph="{...}" />
-            <marker date="1567726038705" expanded="true" signature="930:1021" ph="{...}" />
-            <marker date="1567726038705" expanded="true" signature="1105:1260" ph="{...}" />
-            <marker date="1567726038705" expanded="true" signature="1318:1436" ph="{...}" />
-            <marker date="1567726038705" expanded="true" signature="1474:1784" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/SpaceshipMove.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-          <folding>
-            <marker date="1567727091016" expanded="true" signature="6:100" ph="..." />
-            <marker date="1567727091016" expanded="true" signature="102:182" ph="/* INTENT: Move the Left player's Spaceship up and down ... */" />
-            <marker date="1567727091016" expanded="true" signature="225:1305" ph="{...}" />
-            <marker date="1567727091016" expanded="true" signature="413:481" ph="{...}" />
-            <marker date="1567727091016" expanded="true" signature="535:952" ph="{...}" />
-            <marker date="1567727091016" expanded="true" signature="622:677" ph="{...}" />
-            <marker date="1567727091016" expanded="true" signature="723:784" ph="{...}" />
-            <marker date="1567727091016" expanded="true" signature="861:949" ph="{...}" />
-            <marker date="1567727091016" expanded="true" signature="997:1060" ph="{...}" />
-            <marker date="1567727091016" expanded="true" signature="1090:1299" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/StarGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <marker date="1567727221487" expanded="false" signature="6:78" ph="..." />
             <marker date="1567727221487" expanded="true" signature="123:244" ph="{...}" />
@@ -358,18 +316,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/SpaceshipMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <marker date="1567974840317" expanded="false" signature="6:100" ph="..." />
+            <marker date="1567974840317" expanded="true" signature="102:182" ph="/* INTENT: Move the Left player's Spaceship up and down ... */" />
+            <marker date="1567974840317" expanded="true" signature="225:1609" ph="{...}" />
+            <marker date="1567974840317" expanded="true" signature="419:487" ph="{...}" />
+            <marker date="1567974840317" expanded="true" signature="541:1015" ph="{...}" />
+            <marker date="1567974840317" expanded="true" signature="628:683" ph="{...}" />
+            <marker date="1567974840317" expanded="true" signature="729:790" ph="{...}" />
+            <marker date="1567974840317" expanded="true" signature="867:1012" ph="{...}" />
+            <marker date="1567974840317" expanded="true" signature="1064:1364" ph="{...}" />
+            <marker date="1567974840317" expanded="true" signature="1177:1241" ph="{...}" />
+            <marker date="1567974840317" expanded="true" signature="1300:1358" ph="{...}" />
+            <marker date="1567974840317" expanded="true" signature="1394:1603" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/SpaceShipMoveRight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <marker date="1567974840344" expanded="false" signature="6:153" ph="..." />
+            <marker date="1567974840344" expanded="true" signature="156:238" ph="/* INTENT: Move the Right player's Spaceship up and down ... */" />
+            <marker date="1567974840344" expanded="true" signature="287:2354" ph="{...}" />
+            <marker date="1567974840344" expanded="true" signature="517:585" ph="{...}" />
+            <marker date="1567974840344" expanded="true" signature="645:1472" ph="{...}" />
+            <marker date="1567974840344" expanded="true" signature="661:786" ph="/* if (CountDownTimer.TimeLeft == 0) ... */" />
+            <marker date="1567974840344" expanded="true" signature="919:995" ph="{...}" />
+            <marker date="1567974840344" expanded="true" signature="1070:1161" ph="{...}" />
+            <marker date="1567974840344" expanded="true" signature="1245:1466" ph="{...}" />
+            <marker date="1567974840344" expanded="true" signature="1528:2003" ph="{...}" />
+            <marker date="1567974840344" expanded="true" signature="1700:1785" ph="{...}" />
+            <marker date="1567974840344" expanded="true" signature="1850:1929" ph="{...}" />
+            <marker date="1567974840344" expanded="true" signature="2041:2351" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/CountDownTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <marker date="1567974997299" expanded="false" signature="6:100" ph="..." />
+            <marker date="1567974997299" expanded="true" signature="146:635" ph="{...}" />
+            <marker date="1567974997299" expanded="true" signature="250:306" ph="{...}" />
+            <marker date="1567974997299" expanded="true" signature="360:525" ph="{...}" />
+            <marker date="1567974997299" expanded="true" signature="384:483" ph="{...}" />
+            <marker date="1567974997299" expanded="true" signature="547:633" ph="{...}" />
+            <marker date="1567974997299" expanded="true" signature="565:627" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Star.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="260">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
           <folding>
-            <marker date="1567727292697" expanded="true" signature="6:78" ph="..." />
-            <marker date="1567727292697" expanded="true" signature="113:623" ph="{...}" />
-            <marker date="1567727292697" expanded="true" signature="250:257" ph="{...}" />
-            <marker date="1567727292697" expanded="true" signature="280:326" ph="{...}" />
-            <marker date="1567727292697" expanded="true" signature="381:532" ph="{...}" />
-            <marker date="1567727292697" expanded="true" signature="453:529" ph="{...}" />
-            <marker date="1567727292697" expanded="true" signature="535:621" ph="/* private void OnCollisionEnter2D(Collision2D other) ... */" />
+            <marker date="1568051340790" expanded="false" signature="6:78" ph="..." />
+            <marker date="1568051340790" expanded="true" signature="304:1009" ph="{...}" />
+            <marker date="1568051340790" expanded="true" signature="350:439" ph="/* particlesystem = GetComponentInChildren&lt;ParticleSystem&gt;(); ... */" />
+            <marker date="1568051340790" expanded="true" signature="567:613" ph="{...}" />
+            <marker date="1568051340790" expanded="true" signature="668:824" ph="{...}" />
+            <marker date="1568051340790" expanded="true" signature="740:816" ph="{...}" />
+            <marker date="1568051340790" expanded="true" signature="869:1007" ph="{...}" />
           </folding>
         </state>
       </provider>
